@@ -1,0 +1,52 @@
+[
+  {
+    "question": "How many hearts does an octopus have?",
+    "answers": ["1", "2", "3", "4"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which element has the chemical symbol 'O'?",
+    "answers": ["Gold", "Oxygen", "Osmium", "Zinc"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the capital city of Japan?",
+    "answers": ["Seoul", "Beijing", "Kyoto", "Tokyo"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which artist painted the 'Mona Lisa'?",
+    "answers": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the largest ocean on Earth?",
+    "answers": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which mammal is capable of true flight?",
+    "answers": ["Bat", "Flying Squirrel", "Ostrich", "Sugar Glider"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What is the hardest natural substance on Earth?",
+    "answers": ["Gold", "Iron", "Diamond", "Quartz"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who wrote 'Romeo and Juliet'?",
+    "answers": ["Charles Dickens", "William Shakespeare", "Mark Twain", "Jane Austen"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "How many continents are there on Earth?",
+    "answers": ["5", "6", "7", "8"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the main ingredient in hummus?",
+    "answers": ["Lentils", "Chickpeas", "Black beans", "Peas"],
+    "correctAnswer": 1
+  }
+] 
