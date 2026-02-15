@@ -1,7 +1,10 @@
-from question import Question
 import pathlib
 import json
 import random
+
+
+from question import Question
+from validate_question import ValidateQuestion
 
 def get_questions_from_file(file_path: str) -> list[Question]:
     
@@ -11,10 +14,11 @@ def get_questions_from_file(file_path: str) -> list[Question]:
     
     questions_list = json.load(questions_file.open())
     
-    return [
-        Question(q["question"], q["answers"], q["correctAnswer"]) 
+    game_quetions =  [ 
+        ValidateQuestion.model_validate(q)
         for q in questions_list
     ]
+    return game_quetions
    
 
 if __name__ == "__main__":

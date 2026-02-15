@@ -11,13 +11,7 @@ class Question:
         for (i,answer) in enumerate(self._answers,1):
             print(f"{i} - {answer}")
 
-    def ask_a_question(self):
-
-        self.print_quetion()
-
-        answer_index = self._get_answer_from_user()
-
-        return answer_index == self._correct_index
+   
     
     def __repr__(self):
         return f"Question: {self._my_quetion}, Answers: {self._answers}"
