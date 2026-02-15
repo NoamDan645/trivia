@@ -11,13 +11,11 @@ def get_questions_from_file(file_path: str) -> list[Question]:
     
     questions_list = json.load(questions_file.open())
     
-    
-    game_questions = [
+    return [
         Question(q["question"], q["answers"], q["correctAnswer"]) 
         for q in questions_list
     ]
-    return game_questions
-
+   
 
 if __name__ == "__main__":
     
